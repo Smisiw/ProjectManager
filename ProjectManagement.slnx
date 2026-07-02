@@ -1,0 +1,6 @@
+<Solution>
+  <Project Path="ProjectManagement.API/ProjectManagement.API.csproj" />
+  <Project Path="ProjectManagement.Tests/ProjectManagement.Tests.csproj">
+    <BuildDependency Project="ProjectManagement.API/ProjectManagement.API.csproj" />
+  </Project>
+</Solution>
